@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Sign In</title>
+  <style>
+    body {
+      margin:0; font-family:Arial, sans-serif;
+      background:#f1f3f4; display:flex; justify-content:center; align-items:center; height:100vh;
+    }
+    .google-card {
+      background:white; padding:30px; border-radius:12px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.1); width:350px; text-align:center;
+    }
+    img { width:90px; margin-bottom:20px; }
+    input {
+      width:92%; padding:12px; margin:8px 0; border:1px solid #ddd; border-radius:6px;
+    }
+    button {
+      width:100%; padding:12px; background:#1a73e8; color:white; border:none; border-radius:6px;
+      cursor:pointer; font-weight:600;
+    }
+    button:hover { background:#1557b0; }
+  </style>
+</head>
+<body>
+  <div class="google-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo">
+    <h2>Sign in with Google</h2>
+    <input type="email" placeholder="Email or phone">
+    <input type="password" placeholder="Password">
+    <button>Next</button>
+  </div>
+</body>
+</html>
